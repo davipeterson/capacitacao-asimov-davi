@@ -28,3 +28,17 @@ Olá, eu sou o Davi Peterson! Sou estudante de Engenharia de Computação na UNI
 
 - **Engenharia de Computação**, Universidade Federal de Itajubá (UNIFEI), 6º período
 - **Capacitação de Desktop 2026.2**, Asimov Jr. (em andamento)
+
+## Habilidades
+
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![Haskell](https://img.shields.io/badge/Haskell-5D4F85?logo=haskell&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+
+**Aprendendo na capacitação:** TypeScript, Tailwind CSS, Angular, Firebase e MongoDB.
