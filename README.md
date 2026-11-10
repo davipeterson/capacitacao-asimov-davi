@@ -42,3 +42,11 @@ Olá, eu sou o Davi Peterson! Sou estudante de Engenharia de Computação na UNI
 ![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
 
 **Aprendendo na capacitação:** TypeScript, Tailwind CSS, Angular, Firebase e MongoDB.
+
+## Contatos
+
+- E-mail: davipeter7@gmail.com
+- LinkedIn: [davi-peterson](https://www.linkedin.com/in/davi-peterson-a6b733280)
+- GitHub: [davipeterson](https://github.com/davipeterson)
+- Instagram: [@davipeterson07](https://instagram.com/davipeterson07)
+- X: [@naitass](https://x.com/naitass)
