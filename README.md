@@ -1,6 +1,6 @@
 # capacitacao-asimov-davi
 
-> Estudante de Engenharia de Computação na UNIFEI e trainee de Desktop na Asimov Jr.
+> Estudante de Engenharia de Computação (UNIFEI, 6º período) e trainee de Desktop na Asimov Jr.
 
 ## Índice da capacitação
 
