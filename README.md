@@ -23,3 +23,8 @@
 <img src="https://github.com/davipeterson.png" alt="Foto de Davi Peterson" width="140" align="right">
 
 Olá, eu sou o Davi Peterson! Sou estudante de Engenharia de Computação na UNIFEI, com interesse em desenvolvimento de software, algoritmos e sistemas computacionais. Atualmente sou trainee da área de Desktop da Asimov Jr.
+
+## Formação
+
+- **Engenharia de Computação**, Universidade Federal de Itajubá (UNIFEI), 6º período
+- **Capacitação de Desktop 2026.2**, Asimov Jr. (em andamento)
