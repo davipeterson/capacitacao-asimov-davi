@@ -17,3 +17,9 @@
 | 09     | MongoDB Pt.2  | repositório próprio                        | Em breve     |
 | 10     | Notion        | link no Notion                             | Em breve     |
 | 11–12  | Projeto Final | projeto-final-davi                         | Em breve     |
+
+## Sobre mim
+
+<img src="https://github.com/davipeterson.png" alt="Foto de Davi Peterson" width="140" align="right">
+
+Olá, eu sou o Davi Peterson! Sou estudante de Engenharia de Computação na UNIFEI, com interesse em desenvolvimento de software, algoritmos e sistemas computacionais. Atualmente sou trainee da área de Desktop da Asimov Jr.
