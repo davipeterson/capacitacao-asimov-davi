@@ -19,6 +19,7 @@ git clone https://github.com/davipeterson/capacitacao-asimov-davi.git
 ## Link publicado
 
 - Repositório: https://github.com/davipeterson/capacitacao-asimov-davi
+- PR final da semana: https://github.com/davipeterson/capacitacao-asimov-davi/pull/6
 
 ## Fluxo de branches
 
