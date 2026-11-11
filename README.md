@@ -50,3 +50,29 @@ Olá, eu sou o Davi Peterson! Sou estudante de Engenharia de Computação na UNI
 - GitHub: [davipeterson](https://github.com/davipeterson)
 - Instagram: [@davipeterson07](https://instagram.com/davipeterson07)
 - X: [@naitass](https://x.com/naitass)
+
+## Resume in English
+
+<details>
+<summary>Read this resume in English</summary>
+
+### About me
+
+I'm Davi Peterson, a Computer Engineering student at the Federal University of Itajubá (UNIFEI), interested in software development, algorithms, and computer systems. I'm currently a trainee in the Desktop area at Asimov Jr.
+
+### Education
+
+- **Computer Engineering**, Federal University of Itajubá (UNIFEI), 6th semester
+- **Desktop Training Program 2026.2**, Asimov Jr. (in progress)
+
+### Skills
+
+C, C++, Java, Python, JavaScript, Haskell, HTML5, CSS3, Git.
+
+### Contact
+
+- Email: davipeter7@gmail.com
+- LinkedIn: [davi-peterson](https://www.linkedin.com/in/davi-peterson-a6b733280)
+- GitHub: [davipeterson](https://github.com/davipeterson)
+
+</details>
