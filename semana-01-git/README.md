@@ -7,6 +7,7 @@
 - Currículo no README principal (sobre mim, formação, habilidades e contatos).
 - Fluxo de trabalho com branches e Pull Requests, mais um conflito de merge provocado e resolvido.
 - Commits pequenos no padrão Conventional Commits.
+- Visão única: currículo bilíngue, com uma versão em inglês dobrável (`<details>` do HTML dentro do Markdown). Fica no fim do README principal, na seção "Resume in English".
 
 ## Como rodar
 
