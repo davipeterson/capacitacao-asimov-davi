@@ -179,7 +179,7 @@
 
 /* Mobile */
 
-@media (max-width: 860px) {
+@media (width <= 860px) {
   .topbar__nav {
     display: none;
     position: absolute;
