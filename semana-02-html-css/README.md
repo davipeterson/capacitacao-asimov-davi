@@ -80,18 +80,20 @@ semana-02-html-css
 | Tema por `data-theme` no `<html>`                        | O tema claro só redefine as variáveis de cor. Nenhuma regra de componente precisa saber qual tema está ativo.                                                    |
 | `main.js` no `<head>` sem `defer`                        | Aplica o tema salvo antes da primeira pintura, então a página não "pisca" no tema errado.                                                                        |
 | Fotos em `.webp`, com o fundo da foto principal removido | As duas fotos somam cerca de 43 KB.                                                                                                                              |
+| `srcset` e `sizes` nas fotos, com versões de 480 px      | O navegador baixa a menor imagem que fica nítida na tela, resolvendo o aviso "Improve image delivery" do Lighthouse.                                             |
 
 ## Fluxo de trabalho
 
 Cada etapa teve uma issue, uma branch própria e um Pull Request para a `semana-02-html-css`, com commits no padrão Conventional Commits e com escopo (`feat(html)`, `feat(css)`, `ci`):
 
-| Branch                  | Pull Request | Issue    |
-| ----------------------- | ------------ | -------- |
-| `feat/html-estrutura`   | #13          | #7       |
-| `feat/css-estilos`      | #14          | #8, #10  |
-| `feat/js-tema-menu`     | #15          | #9       |
-| `ci/qualidade-deploy`   | #16          | #10, #11 |
-| `docs/readme-semana-02` | #17          | #12      |
+| Branch                     | Pull Request | Issue    |
+| -------------------------- | ------------ | -------- |
+| `feat/html-estrutura`      | #13          | #7       |
+| `feat/css-estilos`         | #14          | #8, #10  |
+| `feat/js-tema-menu`        | #15          | #9       |
+| `ci/qualidade-deploy`      | #16          | #10, #11 |
+| `docs/readme-semana-02`    | #17          | #12      |
+| `perf/imagens-responsivas` | #18          | #11      |
 
 ## Dificuldades encontradas
 

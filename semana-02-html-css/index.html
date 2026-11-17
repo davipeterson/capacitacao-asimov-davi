@@ -10,7 +10,9 @@
   <meta property="og:type" content="website">
   <meta property="og:title" content="Davi Peterson | Desenvolvedor">
   <meta property="og:description" content="Estudante de Engenharia de Computação na UNIFEI e trainee de Desktop na Asimov Jr.">
-  <meta property="og:image" content="https://davipeterson.github.io/capacitacao-asimov-davi/semana-02-html-css/assets/img/davi-recorte.webp">
+  <meta property="og:image" content="https://davipeterson.github.io/capacitacao-asimov-davi/semana-02-html-css/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
 
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/anton-400.woff2" as="font" type="font/woff2" crossorigin>
@@ -57,7 +59,12 @@
         <span>Peterson</span>
       </h1>
 
-      <img class="hero__photo" src="assets/img/davi-recorte.webp" alt="Davi Peterson de braços cruzados, vestindo camiseta preta" width="815" height="1000" fetchpriority="high">
+      <img class="hero__photo"
+        src="assets/img/davi-recorte.webp"
+        srcset="assets/img/davi-recorte-480.webp 480w, assets/img/davi-recorte.webp 815w"
+        sizes="(width <= 860px) 47vh, 64vh"
+        alt="Davi Peterson de braços cruzados, vestindo camiseta preta"
+        width="815" height="1000" fetchpriority="high">
 
       <div class="hero__terminal">
         <p><span class="prompt" aria-hidden="true">~ $</span> <kbd>whoami</kbd></p>
@@ -127,7 +134,11 @@
           <p>Quando não estou programando, provavelmente estou com a minha namorada, cozinhando, vendo jogo do Bulls ou com música no fone.</p>
         </div>
         <figure class="about__photo">
-          <img src="assets/img/davi-trabalhando.webp" alt="Davi Peterson concentrado, digitando no notebook" width="900" height="768" loading="lazy">
+          <img src="assets/img/davi-trabalhando.webp"
+            srcset="assets/img/davi-trabalhando-480.webp 480w, assets/img/davi-trabalhando.webp 900w"
+            sizes="(width <= 860px) 100vw, 30vw"
+            alt="Davi Peterson concentrado, digitando no notebook"
+            width="900" height="768" loading="lazy">
           <figcaption>itajubá, mg</figcaption>
         </figure>
       </div>
