@@ -1,4 +1,5 @@
 // Tema
+
 const THEME_KEY = "tema";
 const root = document.documentElement;
 
@@ -14,7 +15,7 @@ function saveTheme(theme) {
   try {
     localStorage.setItem(THEME_KEY, theme);
   } catch {
-    // Pra aba anônima o localStorage não funciona
+    // Aba anônima ou localStorage desativado
   }
 }
 
@@ -48,5 +49,33 @@ document.addEventListener("DOMContentLoaded", () => {
     applyTheme(next);
     saveTheme(next);
     syncThemeUi();
+  });
+
+  // Mobile
+
+  const menuToggle = document.getElementById("menu-toggle");
+  const menu = document.getElementById("menu");
+
+  function setMenuOpen(open) {
+    menu.classList.toggle("is-open", open);
+    menuToggle.setAttribute("aria-expanded", String(open));
+    menuToggle.setAttribute("aria-label", open ? "Fechar menu" : "Abrir menu");
+  }
+
+  menuToggle.addEventListener("click", () => {
+    setMenuOpen(!menu.classList.contains("is-open"));
+  });
+
+  menu.addEventListener("click", (event) => {
+    if (event.target.closest("a")) {
+      setMenuOpen(false);
+    }
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && menu.classList.contains("is-open")) {
+      setMenuOpen(false);
+      menuToggle.focus();
+    }
   });
 });
