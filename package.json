@@ -1,0 +1,15 @@
+{
+  "name": "capacitacao-asimov-davi",
+  "private": true,
+  "description": "Entregas da capacitacao de Desktop da Asimov Jr. 2026.2",
+  "scripts": {
+    "lint:html": "html-validate \"semana-*/**/*.html\"",
+    "lint:css": "stylelint \"semana-*/**/*.css\"",
+    "lint": "npm run lint:html && npm run lint:css"
+  },
+  "devDependencies": {
+    "html-validate": "^9.7.1",
+    "stylelint": "^16.26.1",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}

@@ -1,0 +1,43 @@
+/* Tokens de design: cores, fontes, espaçamentos e tamanhos */
+
+:root {
+  /* Cores do tema escuro (padrão) */
+  --color-bg: #0f0f10;
+  --color-surface: #18181a;
+  --color-line: #2b2b2e;
+  --color-text: #ecebe8;
+  --color-muted: #8f8e8b;
+  --color-accent: #7e22ce;
+  --color-accent-text: #b98ae6;
+
+  /* Fontes */
+  --font-display: "Anton", "Arial Narrow", sans-serif;
+  --font-body: "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+
+  /* Escala tipográfica */
+  --text-sm: 0.875rem;
+  --text-base: 1.125rem;
+  --text-lead: clamp(1.625rem, 3vw, 2.5rem);
+  --text-heading: clamp(2rem, 3.4vw, 3rem);
+  --text-hero: clamp(6.5rem, 21vw, 21rem);
+  --text-contact: clamp(3.5rem, 9vw, 10rem);
+
+  /* Espaçamentos e layout */
+  --page-pad: clamp(1.25rem, 4vw, 3.5rem);
+  --section-pad: clamp(5rem, 10vw, 7.5rem);
+  --topbar-height: 4.5rem;
+
+  /* Movimento */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Tema claro */
+:root[data-theme="light"] {
+  --color-bg: #e9e8e5;
+  --color-surface: #dfdedb;
+  --color-line: #c4c3bf;
+  --color-text: #141415;
+  --color-muted: #5d5c59;
+  --color-accent-text: #6b1fae;
+}
